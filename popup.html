@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body >
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popup.js"></script>
+<style>
+	#list {
+		width: 300px; 
+		margin: 7px; 
+		font-size: 12px;
+	}
+	#list_lost {
+		width: 300px; 
+		margin: 7px; 
+		font-size: 12px;
+	}
+	li {		 
+		list-style-type: none; 
+		color: #037191;
+    }
+    li:before {
+		content: "• "; 
+		color: red;
+	}
+	a { 
+		text-decoration: none; 
+		color: #037191;
+	} 
+	ol{
+		padding-left: 0px;
+    }
+</style>
+<div id="newstudio"> Newstudio
+<div id="wrapper"><img src="images/load-icon.gif" alt="Preloader" /></div>
+<div id="list"></div>
+</div>
+<div id="lostfilm"> Lostfilm
+<div id="wrapper_lost"><img src="images/load-icon.gif" alt="Preloader" /></div>
+<div id="list_lost"></div>
+</div>
+</body>
+</html>
