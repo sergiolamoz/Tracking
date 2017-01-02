@@ -1,21 +1,21 @@
 {
 	"manifest_version": 2,
 
-	"name": "Tracking", // Название расширения
-	"version": "1.0", // Номер версии
-	"description": "Series announce", // Описание расширения
+	"name": "Tracking",
+	"version": "1.0",
+	"description": "Series announce",
 
 	"permissions": [
-		"http://newstudio.tv/*", // Разрешить расширению обращаться к указанному адресу
+		"http://newstudio.tv/*",
 		"storage",
 		"https://www.lostfilm.tv/browse.php"
 	],
 
 	"browser_action": {
-		"default_title": "Tracking", // Название кнопки
-		"default_icon": "images/icon.png", // Иконка для кнопки
-		"default_popup": "popup.html" // Всплывающее окно
+		"default_title": "Tracking",
+		"default_icon": "images/icon.png",
+		"default_popup": "popup.html"
 	},
 
-	"options_page": "options.html" // Страница настроек
+	"options_page": "options.html"
 }
