@@ -7,7 +7,7 @@
 
 	"permissions": [
 		"http://newstudio.tv/*",
-		"storage",
+		"http://baibako.tv/browse.php",
 		"https://www.lostfilm.tv/browse.php"
 	],
 
